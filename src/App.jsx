@@ -16,7 +16,7 @@ function App() {
   const [followingData, setFollowingData] = useState([]);
   const [reposData, setReposData] = useState([]);
  
-  const token = "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";
+  const token = "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";
 
   const fetchUserData = async (username) => {
     const profileURL = `https://api.github.com/users/${username}`;
